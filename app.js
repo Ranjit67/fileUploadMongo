@@ -166,7 +166,7 @@ app.get("/", (req, res) => {
 app.get("/test", (req, res) => {
   res.json({ data: "Data send." });
 });
-const port = 8080;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log("8080 is ready to start...");
 });
