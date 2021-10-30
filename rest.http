@@ -1,0 +1,16 @@
+### create bucket
+POST http://localhost:8080/createBucket
+Content-Type: application/json
+
+{
+    "Bucket":"ranjit-123"
+}
+### delete Bucket
+DELETE http://localhost:8080/deleteBucket
+Content-Type: application/json
+### list of bucket
+GET http://localhost:8080/listBucket
+Content-Type: application/json
+### bucket policy add
+GET http://localhost:8080/policyAdd
+Content-Type: application/json
